@@ -16,3 +16,8 @@ Step 4: Once the setup is completed browse 192.168.33.33 and you should see the 
 
 - MySQL username : root and password : root
 
+
+## Get in touch
+
+Skype : thephpx
+Twitter : @thephpx
