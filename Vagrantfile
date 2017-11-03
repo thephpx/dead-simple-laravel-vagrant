@@ -67,7 +67,7 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
     apt-get install -y apache2
-    apt-get install -y php7.0 php7.0-zip php7.0-mysql php7.0-mbstring php7.0-json php7.0-ftp php7.0-iconv php7.0-xml php7.0-xsl php7.0-tokenizer php7.0-opcache openssl php7.0-pdo php7.0-common
+    apt-get install -y php7.0 php7.0-intl php7.0-gd php7.0-soap php7.0-zip php7.0-mysql php7.0-mbstring php7.0-json php7.0-ftp php7.0-iconv php7.0-xml php7.0-xsl php7.0-tokenizer php7.0-opcache openssl php7.0-pdo php7.0-common
     sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password root'
     sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password root'
     sudo apt-get -y install mysql-server
